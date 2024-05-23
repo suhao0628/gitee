@@ -5,7 +5,7 @@ namespace gitee.Models
         public string? RequestId { get; set; }
 
 
-
+        public int year { get; set; }
         public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
     }
 }
