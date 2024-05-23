@@ -6,6 +6,7 @@ namespace gitee.Models
 
 
         public int year { get; set; }
+        public int MyProperty { get; set; }
         public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
     }
 }
